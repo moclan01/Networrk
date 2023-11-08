@@ -1,0 +1,1 @@
+{"id":"79fe9f26-a12d-4e24-bc56-10f49c8b32a8","is_admin":true,"created_at":"2023-11-02 13:43:50","_id":"6543aa5d3dfa90000868bc89","username":"chatgpt","password":"$2a$10$lLM5pPfMvPSG6Gmkx.3Yxeu2cSFK2BXMGS0GjBHU3bmVPLGDOMb5y","email":"hoanghaivan456@gmail.com","fullname":"Nguyễn Vânn","avatar":"https://i.ibb.co/5BVrNL6/dog.png","__v":0}
