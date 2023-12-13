@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
+org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
+org.eclipse.jdt.core.compiler.codegen.targetPlatform=20
+org.eclipse.jdt.core.compiler.compliance=20
+org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
+org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
+org.eclipse.jdt.core.compiler.release=enabled
+org.eclipse.jdt.core.compiler.source=20
+org.eclipse.jdt.core.userLibrary.lib=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="2">\r\n\t<archive path\="D\:/Projects/Java/lib/commons-lang3-3.8.1.jar"/>\r\n\t<archive path\="D\:/Projects/Java/lib/commons-logging-1.2.jar"/>\r\n\t<archive path\="D\:/Projects/Java/lib/hsqldb-2.5.0.jar"/>\r\n\t<archive path\="D\:/Projects/Java/lib/jackcess-3.0.1.jar"/>\r\n\t<archive path\="D\:/Projects/Java/lib/ucanaccess-5.0.1.jar"/>\r\n</userlibrary>\r\n

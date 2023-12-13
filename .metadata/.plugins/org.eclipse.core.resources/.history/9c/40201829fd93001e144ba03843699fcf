@@ -1,0 +1,9 @@
+package databaseConnection;
+
+public class Snippet {
+	public static void main(String[] args) {
+		import java.sql.SQLException;
+		
+	}
+}
+
