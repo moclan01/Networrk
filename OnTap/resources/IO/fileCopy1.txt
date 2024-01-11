@@ -1,0 +1,105 @@
+Đề 1=13/02/2023 Ca 3
+Câu 1:
+Kí hiệu WAGE (đơn vị tính: triệu đồng/tháng) và GRADE (đơn vị tính: năm) tương ứng là lương và thời gian học nghề của người công nhân. Với số liệu thu thập được, người ta thực hiện hồi quy và thu được kết quả sau:
+Dependent Variable: WAGE
+Method: Least Squares
+Included observations: 80
+Variable	Coefficient
+C
+GRADE	5.293905
+1.204285
+R-square	0.731225
+
+a) Viết hàm hồi quy tổng thể và hàm hồi quy mẫu. Giải thích ý nghĩa của hệ số góc sau khi ước lượng.
+b) Giải thích ý nghĩa của hệ số xác định. Hãy dự báo mức lương trung bình của người lao động khi có thời gian học nghề là 3 năm.
+Câu 2:
+Để nghiên cứu tác động của diện tích nhà (DIENTICH, đơn vị tính: m2) và tuổi thọ (TUOI, đơn vị tính: năm) của ngôi nhà đến giá nhà (GIA, đơn vị tính: triệu đồng), người ta sử dụng mô hình:
+GIA= β1+ β2DIENTICH + β3TUOI +u
+và thu được kết quả:
+Dependent Variable: GIA
+Method: Least Squares
+Included observations: 33
+Variable                   Coefficient      Std. Error      t-Statistic      Prob.
+C                              -262.3449       307.9746       -0.851839      0.4055
+DIENTICH             9.071312         3.565951       2.543869       0.0204
+TUOI                      10.627600       2.673683       -3.974892      0.3335 
+R-squared               0.313153         Mean dependent var          598.5357
+F-statistic                            a           Durbin-Watson stat          2.277776
+Prob(F-statistic)      0.034020
+a) Tìm số a trong bảng kết quả hồi quy trên
+b) Có ý kiến cho rằng nếu người chủ nhà giữ căn nhà thêm 1 năm, cố định diện tích thì trung bình giá của nó sẽ giảm 10 triệu đồng. Kiểm định ý kiến này với mức ý nghĩa 5%?
+c) Một chủ nhà có ý định mở rộng diện tích ngôi nhà thêm 12m2. Trung bình giá của ngôi nhà được kì vọng sẽ thay đổi trong khoảng nào với độ tin cậy 95%?
+Câu 3
+Nghiên cứu đầu tư (INV, đơn vị tính: triệu đồng/năm) của hộ gia đình phụ thuộc vào lãi suất (IR, đơn vị tính: %/năm) và thu nhập (IN, đơn vị tính: triệu đồng/năm) dựa trên mẫu quan sát gồm 40 hộ gia đình cho kết quả như sau:
+LOG(INV)=0,372 + 0,076IR + 0,427LOG(IN) + e
+(se)            (0,25)    (0,018)       (0,112)
+a) Hãy cho biết ý nghĩa các hệ số ước lượng chỉ tác động riêng phần.
+b) Khi lãi suất tăng 1% mỗi năm và thu nhập không đổi thì giá trị trung bình của đầu tư của mỗi hộ gia đình thay đổi trong khoảng nào với độ tin cậy 95%.
+Cho biết :
+t0,025;37 = 2,026; 	t0,025;38 = 2,024;
+t0,05;37 = 1,687;   t0,05;38 = 1,686
+Câu 4
+Kí hiệu TR là doanh thu hàng tháng (đơn vị tính: ti đồng) của cửa hàng bán lẻ tư nhân, NV là số nhân viên tương ứng.
+a) Xây dựng mô hình hồi quy tuyến tính có hệ số chặn biểu diễn sự phụ thuộc của tổng doanh thu theo số nhân viên. Cho biết kì vọng của bạn về dấu của hệ số góc và giải thích.
+b) Tương ứng với mô hình ở câu a, ta có các kết quả kiểm định dưới đây. Hãy cho biết kết luận về các kiểm định với mức ý nghĩa 5%.
+
+
+
+Breusch-Godfrey Serial Correlation LM Test:
+F-statistic			20.11783 		Prob. F(1,29)		0.0001
+							Prob. Chi-
+Obs*R-squared		13.10666Square(1)				0.0003
+Omitted Variables Test
+Specification: TR C NV
+Omitted variables: X
+					ValueProbability
+t-statistic				2.975667				0.0310
+F-statistic				8.854594				0.0310
+
+c) Có ý kiến cho rằng, những cửa hàng có bán hàng trên mạng internet thường có doanh thu cao hơn các cửa hàng khác mặc dù cùng số nhân viên. Xây dựng mô hình và nêu ý tưởng kiểm định ý kiến đó với mức ý nghĩa α.
+ 
+Đề 2=02/05/2018 Ca 2
+Câu 1
+Cho kết quả ước lượng sau đây, trong đó TN là tỷ lệ thất nghiệp trong năm (đơn vị tính: %). LP là tỷ lệ lạm phát trong năm (đơn vị tính: %).
+Dependent Variable: WAGE
+Method: Least Squares
+Included observations: 80
+Variable	Coefficient
+C
+TN	3.328600
+-2.591500
+R-square	0.731225
+
+a)	Viết hàm hồi quy tổng thể và hăm hồi quy mẫu. Giải thích ý nghĩa của hệ số góc sau khi ước lượng ..
+b)	Kiểm định sự phù hợp của hàm hồi quy với mức ý nghĩa 5%, cho biết F0,05 (1,44) = 4,06.
+Câu 2
+Cho bảng kết quả hồi quy:
+Dependent Variable: Y
+Method: Least Squares
+Sample: 1 33
+Included observations: 33
+Variable                   Coefficient      Std. Error      t-Statistic      Prob.
+C                              1.357046       0.742424       1.827860      0.1103
+X2           		     0.753892                 a           16.05393      0.0000
+X3                           0.205748        0.070063      	   b 	        0.0218
+					Mean dependent var
+R-squared		     0.974669	var				14.40000
+
+a)	Tính các giá trị a và b trong báng kết quả hồi quy.
+b)	Có thể cho rằng các biến X2, X3 đều không giải thích được cho biến Y không với mức ý nghĩa 5%?
+c)	Để trã lời kết quả ở câu b, ta có thể dùng kiểm định T để kiểm định sự khác 0 cho từng hệ số hồi quy được không?
+Câu 3
+Nghiên cứu dầu tư (INV, đơn vị tính: tỉ đồng/năm) của hộ gia đình phụ thuộc vào lãi suất (IR, đơn vị tính : %/năm) dựa trên mẫu quan sát gồm 40 hộ gia đình cho kết quả như sau:
+Ln(INV) = 0,372 + 0,076IR + e
+(se)	    (0,25) 	(0,018)
+a)	Hãy cho biết ý nghĩa của hệ số góc suu khi ước lượng.
+b)	Lãi suất có ánh hưởng đến đầu tư của hộ gia đình với mức ý nghĩa 10% không?
+Cho biết:
+t0,025;37 = 2,026;	t0,025;38 = 2,024;
+t0,05;37 = 1,687;   t0,05;38 = 1,686
+Câu 4
+Kí hiệu CT và TN lần lượt là chi tiêu và thu nhập của người lao động.
+	a) Có ý kiến cho rằng mặc dù cũng mức thu nhập nhưng nam và nữ chi tiêu khác nhau, hãy xây đựng mô hình và nêu ý tưởng kiểm định ý kiến này.
+	b) Thực tế với những người có mức thu nhập cao thì họ có mức chi tiêu rất khác nhau; còn với những người có mức thu nhập thấp thì nói chung chi tiêu chỉ vừa đủ cho sinh hoạt nên họ chi tiều khá giống nhau. Khi đó mô hình ở câu a có thể vi phạm giá thiết gì của phương pháp OLS? Nêu hậu quá của việc vi phạm giả thiết ấy.
+	c) Hãy để xuất một số hướng khác phục việc vĩ phạm giả thiết của phương pháp OIS đã để cập ở câu b?
+
